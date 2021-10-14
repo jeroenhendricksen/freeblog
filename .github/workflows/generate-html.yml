@@ -4,7 +4,7 @@ on:
     paths:
       - "index.md"
     branches:
-      - master
+      - main
 jobs:
   generate-html:
     runs-on: ubuntu-latest
