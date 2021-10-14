@@ -11,6 +11,11 @@ Free hosted static website using a markdown file as its source
 
 Note: [About the GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication)
 
+## Run pandoc locally (Mac OS)
+
+1. Install pandoc on macos using brew: `brew install pandoc`
+1. Run `./generate.sh` to generate `index.html`
+
 ## Acknowledgements
 
 - This repo's setup was copied from [nohello](https://github.com/sbmueller/nohello).
